@@ -3,6 +3,17 @@
     <string name="title_home">Inicio</string>
     <string name="title_dashboard">Servicios</string>
     <string name="title_notifications">Notificaciones</string>
+
+    <string name="boton_saldo">Saldo</string>
+    <string name="boton_transacciones">Transacciones</string>
+    <string name="boton_transferir">Transferir</string>
+
+    <string name="boton_retiro">Retirar</string>
+    <string name="texto_cuentas">Tus cuentas</string>
+    <string name="saldo_tarjeta">$1,752</string>
+    <string name="uber_transaccion">Uber -$123.65</string>
+    <string name="deposito">Deposito $500</string>
+    <string name="comida">Titos -$234.56</string>
     <string name="Button">boton de transferencia</string>
     <string name="Button3">Tiempo aire</string>
     <string name="Button4">Pago de servicios</string>
