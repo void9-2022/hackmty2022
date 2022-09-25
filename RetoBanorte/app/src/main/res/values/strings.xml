@@ -1,10 +1,7 @@
 <resources>
     <string name="app_name">Reto Banorte</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
-    <string name="title_extra">Extra</string>
-    <string name="title_extra2">Extra</string>
-    <string name="plantilla">plantilla</string>
-    <string name="navigation_plantilla">navigation_plantilla</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_dashboard">Servicios</string>
+    <string name="title_notifications">Notificaciones</string>
+
 </resources>
