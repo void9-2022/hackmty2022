@@ -98,6 +98,8 @@
         android:id="@+id/cardView4"
         android:layout_width="412dp"
         android:layout_height="83dp"
+        app:cardBackgroundColor="@color/material_dynamic_neutral95"
+        app:cardCornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView5"
@@ -107,9 +109,9 @@
             android:id="@+id/imageButton6"
             android:layout_width="87dp"
             android:layout_height="83dp"
+            android:background="@drawable/rounded_corner"
             android:contentDescription="@string/Button6"
-            android:src="@drawable/icons8_no_credit_cards_24"
-            android:background="@drawable/rounded_corner"/>
+            android:src="@drawable/icons8_no_credit_cards_24" />
 
         <TextView
             android:id="@+id/textView7"
@@ -121,20 +123,21 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:layout_width="410dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
+        android:id="@+id/cardView6"
+        android:layout_width="408dp"
+        android:layout_height="79dp"
+        android:paddingTop="2dp"
+        app:cardBackgroundColor="@color/material_dynamic_neutral95"
         app:cardCornerRadius="20dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardView4"
-        app:cardBackgroundColor="@color/material_dynamic_neutral95">
+        app:layout_constraintTop_toBottomOf="@+id/cardView4">
 
         <ImageButton
             android:id="@+id/imageButton7"
-            android:layout_width="87dp"
-            android:layout_height="83dp"
+            android:layout_width="77dp"
+            android:layout_height="match_parent"
             android:background="@drawable/rounded_corner"
             android:contentDescription="@string/Button7"
             android:src="@drawable/icons8_investment_64" />
@@ -147,6 +150,43 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:translationX="90dp" />
 
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView7"
+        android:layout_width="409dp"
+        android:layout_height="79dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView6">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imageButton10"
+                android:layout_width="76dp"
+                android:layout_height="73dp"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/rounded_corner"
+                android:src="@drawable/ic_baseline_add_circle_24"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/button7"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="318dp"
+                android:layout_height="59dp"
+                android:layout_marginEnd="4dp"
+                android:text="Button"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
