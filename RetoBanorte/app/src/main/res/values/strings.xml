@@ -3,5 +3,10 @@
     <string name="title_home">Inicio</string>
     <string name="title_dashboard">Servicios</string>
     <string name="title_notifications">Notificaciones</string>
+    <string name="Button">boton de transferencia</string>
+    <string name="Button3">Tiempo aire</string>
+    <string name="Button4">Pago de servicios</string>
+    <string name="Button6">Retiro sin tarjeta</string>
+    <string name="Button7">Inversión</string>
 
 </resources>
